@@ -1,0 +1,41 @@
+.Navbar {
+  background-color: black;
+}
+
+
+.Navbar ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.Navbar ul:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.Navbar a li {
+  float: left;
+  background-color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.floatRight {
+  float: right;
+}
+
+.Navbar .active {
+  color: red;
+}
+
+.Navbar a {
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+}
+

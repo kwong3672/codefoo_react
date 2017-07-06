@@ -1,0 +1,10 @@
+img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+
+.Image {
+  background-color: black;
+  border-style: none;
+}

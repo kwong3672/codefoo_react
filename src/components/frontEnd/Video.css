@@ -1,0 +1,17 @@
+.Video:hover {
+  background-color: lightgray;
+  border-left-style: solid;
+  border-left-color: red;
+  border-left-width: 10px;
+  padding-left: 10px;
+  left: -5px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  width: calc(100% + 5px);
+}
+
+.Video {
+  border-color: gray;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}

@@ -1,0 +1,25 @@
+.NavBar {
+  margin: 20px;
+  text-align: center;
+  font-weight: bold
+}
+
+.NavBar-videos {
+  border-style: solid;
+  border-width: 1px;
+  border-color: red;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: red;
+  padding: 5px;
+}
+
+.NavBar-articles {
+  border-style: solid;
+  border-width: 1px;
+  border-color: red;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: white;
+  padding: 5px;
+}
