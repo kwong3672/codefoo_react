@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {} from './VideoDescription.css';
+import './VideoDescription.css';
 
 const VideoDescription = (props) => {
   return(

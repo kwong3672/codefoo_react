@@ -21,8 +21,6 @@ class Articles extends Component {
         return this.props.articles.data.map((article, idx) => {
           return (
             <div key={article.metadata.headline}>
-
-
               <Article 
                 idx={idx} 
                 headline={article.metadata.headline}

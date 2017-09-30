@@ -2,7 +2,7 @@ import React from 'react';
 
 const GridFooter = (props) => {
   return (
-    <div style={{clear: 'left'}}>
+    <div style={style}>
       <button onClick={() => { 
         props.resetGrid();
         props.displayAnswers(); 
@@ -11,6 +11,11 @@ const GridFooter = (props) => {
       <button onClick={props.resetGrid.bind(this)}>Reset Grid</button>
     </div>
   );
+}
+
+const style = {
+  clear: 'left',
+  padding: '10px 0',
 }
 
 export default GridFooter;

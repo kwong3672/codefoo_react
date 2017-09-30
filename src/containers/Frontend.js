@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
+// import React, { Component } from 'react';
 
-class Frontend extends Component {
+// class Frontend extends Component {
 
-  render() {
-    return (
-      <div>
+//   render() {
+//     return (
+//       <div>
 
-        <h1>Frontend</h1>
-      </div>
-    );
-  }
-}
+//         <h1>Frontend</h1>
+//       </div>
+//     );
+//   }
+// }
 
-export default Frontend;
+// export default Frontend;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-require('./Image.css');
+import './Image.css';
 
 const Image = (props) => {
   return (

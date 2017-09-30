@@ -4,7 +4,7 @@ import Idx from './Idx';
 import Duration from './Duration';
 import VideoDescription from './VideoDescription';
 
-require('./Video.css');
+import './Video.css';
 
 const Video = (props) => {
   return (

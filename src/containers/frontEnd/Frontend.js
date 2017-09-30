@@ -10,7 +10,7 @@ import { changeCategory } from '../../actions/frontEnd/appActions';
 import { addVideos } from '../../actions/frontEnd/videoActions';
 import { addArticles } from '../../actions/frontEnd/articleActions';
 
-import {} from './Frontend.css';
+// import {} from './Frontend.css';
 
 
 class Frontend extends Component {

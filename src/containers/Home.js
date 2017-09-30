@@ -1,12 +1,20 @@
 import React, { Component } from 'react';
 // import { Route, Link } from 'react-router-dom';
+import ReactPaginate from 'react-paginate';
 
 class Home extends Component {
 
   render() {
     return (
       <div>
-        <h1>Home</h1>
+        <h1>Home</h1>        
+        <ReactPaginate previousLabel={"previous"}
+                       nextLabel={"next"}
+                       breakLabel={<a href="">...</a>}
+                       breakClassName={"break-me"}
+                       pageCount={20}
+                       marginPagesDisplayed={0}
+                       pageRangeDisplayed={5} />
       </div>
     );
   }
